@@ -1,0 +1,60 @@
+<!DOCTYPE = html>
+<html>
+
+    <head>
+        
+        <title>Open Weather with AJAX</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    
+    <body>
+        
+        <div id="outerdiv">
+            
+            <h1>Open Weather with AJAX</h1>
+            <h3>An Application by Sean Hinds</h3>
+
+            <form>
+                
+                <fieldset>
+                    
+                    <legend>City Name</legend>
+                    <label for="cityName"></label>
+                    <input type="text" name="cityName" id="cityName">
+                    <input type="submit" id="citySubmit">
+                    
+                </fieldset>
+            
+            </form>
+
+            <div id="display" style="display: none">
+                
+                <h3 id="displayName"></h3>
+                <ul id="results"></ul>
+                
+            </div>
+
+            <form>
+                
+                <fieldset>
+                    
+                    <legend>Enter Text</legend>
+                    <label for="userText"></label>
+                    <input type="text" name="userText" id="userText">
+                    <input type="submit" id="textSubmit">
+                    
+                </fieldset>
+                
+            </form>
+            
+            <div id="tDisplay" style="display: none"></div>
+            
+        </div>
+        
+        <script type="text/javascript" src="script.js"></script>
+        
+    </body>
+    
+</html>
