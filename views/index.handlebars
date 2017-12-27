@@ -1,0 +1,37 @@
+<div id="outerdiv" class="container">
+    
+    <div class="jumbotron">
+        <h1>Open Weather with AJAX</h1>
+        <h3>An Application by Sean Hinds</h3>
+    </div>
+    
+    <form action="/request" method="GET">
+                
+        <fieldset>
+
+            <legend>City Name</legend>
+            <label for="cityName"></label>
+            <input type="text" name="cityName" id="cityName">
+            <input type="submit" id="citySubmit">
+
+        </fieldset>
+            
+    </form>
+    
+    <div class="jumbotron">
+        <h2>{{weatherin}} {{owm.name}}</h2>
+    </div>
+    <span class="row">
+        <span class="col-md-1"></span>
+        <span class="col-md-8">
+            <ul id="results">
+                <p>{{description}} {{owm.weather.0.description}}</p>
+                <p>{{temp}} {{owm.main.temp}}{{{deg}}}</p>
+                <p>{{wind}} {{owm.wind.speed}}{{kph}} {{owm.wind.deg}}{{{deg}}}</p>
+            </ul>
+        </span>
+    </span>
+
+</div>
+
+        

@@ -1,0 +1,55 @@
+body {
+    
+    /* 
+    image borrowed from:
+    http://hddesktopwallpapers.in/wp-content/uploads/2015/09/clouds-wallpaper-flare.jpg 
+    */
+    
+    background-image: url("../img/cloudswallpaperflare.jpg");
+    background-attachment: fixed;
+    
+}
+
+
+#outerdiv {
+    
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 5%;
+    background-color: #EEFFFF;
+    
+}
+
+
+h1, h2, h3 {
+    
+    text-align: center;
+    
+}
+
+
+form {
+    
+    width: 80%;
+    font-size: 30;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+
+input {
+    
+    font-size:30;
+    
+}
+
+
+
+
+
+
+
+
+
